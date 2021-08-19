@@ -1,0 +1,162 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+ul {
+  padding: 0;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.container {
+  width: 1200px;
+  margin: 0 15px;
+  display: flex;
+  justify-content: center;
+}
+
+.cars-list {
+  display: flex;
+}
+
+.cars-item {
+  width: 306px;
+  border: 1px solid black;
+  padding-left: 48px;
+}
+
+.cars-title {
+  font-family: 'Big Shoulders Display', cursive;
+  font-size: 40px;
+  line-height: 48px;
+  text-transform: uppercase;
+  color: #F2F2F2;
+}
+
+.cars-text {
+  font-family: 'Lexend Deca', sans-serif;
+  font-size: 15px;
+  line-height: 25px;
+  color: #FFFFFF;
+  mix-blend-mode: normal;
+  opacity: 0.75;
+  margin-bottom: 83px;
+  width: 212px;
+}
+
+.cars-link p {
+  width: 163px;
+  display: flex;
+  font-size: 15px;
+  line-height: 25px;
+  margin-bottom: 48px;
+  padding: 11px 31px;
+  border-radius: 25px;
+  background-color: #fff; font-family: 'Lexend Deca', sans-serif;
+
+}
+
+.car-sedans {
+  border-radius: 8px 0 0 8px;
+  background: #E28625;
+}
+
+.sedans::before {
+  content: "";
+  background-image: url("../img/icon-sedan.svg");
+  background-repeat: no-repeat;
+  display: block;
+  width: 64px;
+  height: 40px;
+  margin-bottom: 25px;
+  background-size: cover;
+}
+
+.btn-sedans {
+  color: #E28625;
+}
+
+.btn-sedans {
+  border-radius: 100px;
+  padding: 18px 78px;
+  color: #E28625;
+  font-weight: 700;
+  transition: all 0.7s ease;
+}
+
+.btn-sedans:hover {
+  background-color: transparent;
+  color: #fff;
+  transition: all 0.7s ease;
+  box-shadow: 0 0 0 1px #fff;
+}
+
+.car-suvs {
+  background: #006971;
+}
+
+.suvs::before {
+  content: "";
+  background-image: url("../img/icon-suv.svg");
+  background-repeat: no-repeat;
+  display: block;
+  width: 64px;
+  height: 40px;
+  margin-bottom: 25px;
+  background-size: cover;
+}
+
+.btn-suvs {
+  border-radius: 100px;
+  padding: 18px 78px;
+  color: #006971;
+  font-weight: 700;
+  transition: all 0.7s ease;
+}
+
+.btn-suvs:hover {
+  background-color: transparent;
+  color: #fff;
+  transition: all 0.7s ease;
+  box-shadow: 0 0 0 1px #fff;
+}
+
+
+.car-luxury {
+  border-radius:  0 8px 8px 0;
+  background: #004140;
+}
+
+.luxury::before {
+  content: "";
+  background-image: url("../img/icon-luxury.svg");
+  background-repeat: no-repeat;
+  display: block;
+  width: 64px;
+  height: 40px;
+  margin-bottom: 25px;
+  background-size: cover;
+}
+
+.btn-luxury {
+  border-radius: 100px;
+  padding: 18px 78px;
+  color: #004140;
+  font-weight: 700;
+  transition: all 0.7s ease;
+}
+
+.btn-luxury:hover {
+  background-color: transparent;
+  color: #fff;
+  transition: all 0.7s ease;
+  box-shadow: 0 0 0 1px #fff;
+}
